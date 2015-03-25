@@ -51,4 +51,4 @@ wynik2 <- wynik[!duplicated(wynik[, "RU"]), ]
 
 
 # Eksport
-write.table(x = wynik2, file = "rosyjski.csv", quote = TRUE, row.names = FALSE, col.names = FALSE)
+write.table(x = wynik2, file = "rosyjski.csv", quote = TRUE, row.names = FALSE, col.names = FALSE, sep = ",")
